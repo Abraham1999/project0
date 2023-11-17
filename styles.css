@@ -27,6 +27,14 @@
   height: 40vh;
 }
 
+.about-bg {
+  background-image: url("https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
 .products-card-img {
   color: white;
   background-position: center;
