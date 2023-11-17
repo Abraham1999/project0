@@ -4,18 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing</title>
-  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" class="rel">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link href="styles.css" rel="stylesheet" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
   <!-- NAVBAR -->
 <nav class="navbar  navbar-expand-sm ">
   <div class="container-fluid">
-    <a class="navbar-brand dance" href="./index.html"><img src="images/logo.png" height="60px" /></span></a>
+    <a class="navbar-brand dance" href="./index.html"><img src="images/logo.png" height="60px" alt="navbar-image"/></span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,6 +40,244 @@
   </div>
 </nav>
 
+<div>
+  <div id="embarkCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li
+        data-target="#embarkCarousel"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#embarkCarousel" data-slide-to="1"></li>
+      <li data-target="#embarkCarousel" data-slide-to="2"></li>
+      <li data-target="#embarkCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          class="d-block w-100 embark-carousel-image"
+          src="/assets//slide1.gif"
+          alt="First slide"
+        />
+        <div
+          class="carousel-caption container text-center col-6 embark-carousel-caption"
+        >
+          <h1 class="fw-bold">Embark Group Demonstration</h1>
+          <p>
+            Debbie Sinclair from our Adviser experience team, explains the
+            features and functionality offered by the Embark platform
+          </p>
+          <button type="button" class="btn btn-light text-primary">
+            Watch video now
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100 embark-carousel-image"
+          src="/assets//slide2.gif"
+          alt="Second slide"
+        />
+        <div
+          class="carousel-caption container text-center col-6 embark-carousel-caption"
+        >
+          <h1 class="fw-bold">Adviser Platforms are not a binary debate</h1>
+          <p>
+            Advisers can take control over client experience without the
+            need to go 'all in' on platform ownership.
+          </p>
+          <button type="button" class="btn btn-light text-primary">
+            Read article here
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100 embark-carousel-image"
+          src="/assets//slide3.gif"
+          alt="Third slide"
+        />
+        <div
+          class="carousel-caption container text-center col-6 embark-carousel-caption"
+        >
+          <h1 class="fw-bold">Welcome to Embark Group</h1>
+          <p>
+            Embark Group is a technology-driven, financial services business
+            and one of the leading digital retirement solutions providers to
+            the advised and institutional markets in the UK.
+          </p>
+          <button type="button" class="btn btn-light text-primary">
+            View products and services
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="d-block w-100 embark-carousel-image"
+          src="/assets//slide4.gif"
+          alt="Fourth slide"
+        />
+        <div
+          class="carousel-caption container text-center col-6 embark-carousel-caption"
+        >
+          <h1 class="fw-bold">Launching the Dundee tech school</h1>
+          <p>
+            A brand new fintech hub dedicated to developing a pipeline of
+            talent in engineering, data, tech and cyber
+          </p>
+          <button type="button" class="btn btn-light text-primary">
+            Find out more
+          </button>
+        </div>
+      </div>
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#embarkCarousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#embarkCarousel"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container py-4">
+    <h1 class="text-primary">The Embark Way</h1>
+    <p class="py-2">
+      We work to deliver multi-channel savings across four key markets:
+      Financial Advice, Robo-Advice, Banking and Wealth Management. We do
+      this by offering a unique combination of pension expertise, retirement
+      wrappers, processing capabilities and technology integration.
+    </p>
+    <div class="row text-uppercase text-center text-primary">
+      <div class="col-3">
+        <div class="border-card">
+          <img src="/assets/embark1.svg" alt="customer outcome focus" />
+          <p class="pt-3">customer outcome focus</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="border-card">
+          <img src="/assets/embark2.svg" alt="technology led" />
+          <p class="pt-3">technology led</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="border-card">
+          <img src="/assets/embark3.svg" alt="deep and proven expertise" />
+          <p class="pt-3">deep and proven expertise</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="border-card">
+          <img src="/assets/embark4.svg" alt="safe and secure" />
+          <p class="pt-3">safe and secure</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="about-gradient">
+      <div class="container text-white py-5">
+        <h3 class="pt-2 text-bold">About Embark</h3>
+        <div class="row row-gap-2">
+          <div class="col-md-6">
+            <p>
+              In January 2022, Embark became part of Lloyds Banking Group,
+              one of the UK leading financial services groups. We believe
+              that Lloyds Banking Group’s investment resources and customer
+              knowledge combined with our speed of wealthtech innovation
+              perfectly positions us to understand the developing digital
+              needs of our clients and consumers.
+              <br />
+              <br />
+              Embark Group’s technology powers some of the UK’s largest
+              retail financial services businesses, with a wide portfolio of
+              white label partners including NatWest Group, Coutts, Standard
+              Life, Nutmeg, Bestinvest, Charles Stanley, Moneyfarm,
+              Wealthsimple and HUB Financial Solutions.
+
+              <br />
+              <br />
+              <span class="fw-bold"
+                >We are WealthTech the way it should be. We are
+                Embark.</span
+              >
+            </p>
+          </div>
+          <div class="col-md-6 mx-auto my-auto">
+            <iframe
+              title="About Embark"
+              width="500"
+              src="https://player.vimeo.com/progressive_redirect/playback/706901515/rendition/720p/file.mp4?loc=external&signature=b32cd9908101b511343d89c577fd69d9097e924d60854ba9921fa96bd72bf009"
+            ></iframe>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="btn btn-light text-primary">
+            Download corporate information pack
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-4 bg-light">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <i class="fa fa-money display-1 text-primary"></i>
+        <h1 class="text-primary">£35.3bn↑</h1>
+        <p class="fw-bold">ASSETS UNDER ADMIN</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-users display-1 text-primary"></i>
+        <h1 class="text-primary">401,000</h1>
+        <p class="fw-bold">INDIVIDUAL CLIENTS</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-user-o display-1 text-primary"></i>
+        <h1 class="text-primary">475,000</h1>
+        <p class="fw-bold">INDIVIDUAL ACCOUNTS</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <i class="fa fa-building-o display-1 text-primary"></i>
+        <h1 class="text-primary">8</h1>
+        <p class="fw-bold">LOCATIONS NATIONWIDE</p>
+      </div>
+    </div>
+    <p class="text-center">*All figures as at September 2023.</p>
+  </div>
+  <div class="container py-5">
+    <div class="row row-gap-4">
+      <div class="col-4">
+        <img
+          class="img-fluid"
+          alt="information pack"
+          src="/assets//services.svg"
+        />
+      </div>
+      <div class="col-xl-8 mx-auto my-auto">
+        <h3 class="fw-bold text-primary">Our services</h3>
+        <p>
+          We provide a broad range of pension, wrap platform, multi-asset
+          funds, research and consultancy services to support you, your
+          business and your clients.
+        </p>
+        <button type="button" class="btn btn-primary text-white">
+          More about our services
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -53,9 +290,9 @@
       </div>
   
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fab fa-twitter text-info fa-2x"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fab fa-instagram text-warning fa-2x"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-twitter text-info fa-2x"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-facebook text-primary fa-2x"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-instagram text-warning fa-2x"></i></a></li>
       </ul>
     </footer>
   </div>
