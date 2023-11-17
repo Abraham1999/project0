@@ -5,3 +5,38 @@
   display: flex;
   align-items: center;
 }
+
+.products-bg {
+  color: white;
+  background-image: url("assets//products.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.vertical-text {
+  padding: 80px 0;
+}
+
+.contact-bg {
+  background-image: url("assets//cube.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.products-card-img {
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  border-radius: 0px 40px 0px 40px;
+}
+
+.partner-gradient {
+  background-image: linear-gradient(to right, rgb(43, 129, 190) , rgb(6, 216, 216));;
+}
