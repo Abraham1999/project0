@@ -1,0 +1,69 @@
+.signup-page {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.products-bg {
+  color: white;
+  background-image: url("assets//products.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.vertical-text {
+  padding: 80px 0;
+}
+
+.contact-bg {
+  background-image: url("assets//cube.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.products-card-img {
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  border-radius: 0px 40px 0px 40px;
+}
+
+.partner-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(43, 129, 190),
+    rgb(6, 216, 216)
+  );
+}
+
+.border-card {
+  border-radius: 0px 40px 0px 40px;
+  border: 2px solid teal;
+  padding: 20px;
+}
+
+.about-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(190, 43, 153),
+    rgb(216, 101, 6)
+  );
+} 
+
+.embark-carousel-image {
+  height: 60vh;
+}
+
+.embark-carousel-caption {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
