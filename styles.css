@@ -38,5 +38,32 @@
 }
 
 .partner-gradient {
-  background-image: linear-gradient(to right, rgb(43, 129, 190) , rgb(6, 216, 216));;
+  background-image: linear-gradient(
+    to right,
+    rgb(43, 129, 190),
+    rgb(6, 216, 216)
+  );
+}
+
+.border-card {
+  border-radius: 0px 40px 0px 40px;
+  border: 2px solid teal;
+  padding: 20px;
+}
+
+.about-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(190, 43, 153),
+    rgb(216, 101, 6)
+  );
+} 
+
+.embark-carousel-image {
+  height: 60vh;
+}
+
+.embark-carousel-caption {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
